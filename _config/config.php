@@ -15,7 +15,7 @@
 	- ver : 1.0
 	- Date Mod : 24 Juli 2019
 	*/
-	/*$con =mysqli_connect('localhost','root','','absensi');*/
+	$con =mysqli_connect('localhost','root','','test_web');
 	if(mysqli_connect_error()) {
 	    echo mysqli_connect_error();
 	}
@@ -31,7 +31,7 @@
 	- Date Mod : 24 Juli 2019
 	*/
 	function base_url($url = null){
-	    $base_url = "https://localhost/ti2d_risangDaniswara";
+	    $base_url = "https://localhost/Desain-Web-Minggu2";
 	    if($url != null){    
 	        return $base_url."/".$url;
 	    }

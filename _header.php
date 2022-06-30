@@ -35,7 +35,7 @@ require_once "_config/config.php";
         <div id="sidebar-wrapper">
             <ul class="nav">
                 <li class="sidebar-brand">
-                    <a href="#">
+                    <a href="<?=base_url('dashboard')?>">
                         <span class="text-primary"><b>Tugas Jobsheet 2</b></span>
                     </a>
                 </li>
@@ -47,6 +47,9 @@ require_once "_config/config.php";
                 </li>
                 <li>
                     <a href="<?=base_url('jobsheet2/jobsheet2.php')?>">Jobsheet 2</a>
+                </li>
+                <li>
+                    <a href="<?=base_url('listing/data.php')?>">Listing</a>
                 </li>
                 
             </ul>
